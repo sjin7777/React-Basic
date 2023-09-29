@@ -195,14 +195,12 @@ if(true) {
         */
 
     //  4. NotificationList.jsx에서 componentDidMount() 메서드 수정(추가)
-    //  - notifications 비우기
+    //  - unmount log를 보기 위해 추가
+    //  - 알림 추가가 모두 끝나면 notifications 배열 비우기
             /*  
                 this.setState({
                     notifications: [],
                 });
             */
     
-
-
-    //  - 강의 내용과 다르게 생명주기 뒤죽박죽으로 호출 됨...
 }
