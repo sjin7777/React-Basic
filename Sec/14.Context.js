@@ -309,5 +309,12 @@ import Toolbar from "../my-app/src/chapter_09/Toolbar";
     //      - 테마 변경 버튼을 누를 경우 ThemeContext로부터 받은 toggle-theme함수를 호출하여 ThemeContext의 값을 변경하는 역할
 
     //  3. src> chapter_14 > 'DarkOrLight.jsx' 파일 생성 및 강의 내용 작성
+    //      - DarkOrLight Component는 MainContent Component를 자식으로 가지고 있음 
+    //      - 자식 Component인 MainContent Component를 ThemeContext.Provider로 감싸서 ThemeContext의 값을 하위 Component들이 사용할 수 있도록 해줌
+    //      - 만약, ThemeContext.Provider로 감싸주지 않으면 하위 Component들이 ThemeContext의 값을 가져올 수 없음
+    //      - ThemeContext의 값으로 들어가는 theme, toggleTheme()은 자체적으로 관리
+    
+
+
 
 }
